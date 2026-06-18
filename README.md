@@ -1,6 +1,6 @@
 # OmniTrace API 
 
-** Live Deployment:** [https://omnitrace-api.onrender.com]
+ Live Deployment: [https://omnitrace-api.onrender.com]
 
 Hey there! Welcome to the repository for OmniTrace. I built this API to showcase my approach to writing clean, production-ready backend code in Go. 
 
