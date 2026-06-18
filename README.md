@@ -1,4 +1,6 @@
-# OmniTrace API
+# OmniTrace API 
+
+** Live Deployment:** [Paste your Render URL here once it finishes building]
 
 Hey there! Welcome to the repository for OmniTrace. I built this API to showcase my approach to writing clean, production-ready backend code in Go. 
 
@@ -12,7 +14,7 @@ When planning this project, my main goal was to avoid heavy abstractions. I want
 * **Uber Zap:** Standard library logging is fine for small scripts, but for a real API, I wanted structured JSON logging. Zap makes it really easy to track down issues if things break.
 * **Go-Playground Validator:** Added this at the router level. It validates the incoming JSON payloads so that bad data (like an empty email or a tiny password) gets rejected before it ever touches the database layer.
 
-##  Endpoints
+## 🛣 Endpoints
 
 ### 1. Health Check
 Just a simple route to make sure the server is breathing.
@@ -47,8 +49,8 @@ If you want to spin this up on your own machine, it just takes a few steps:
 
 1. **Clone the repo:**
 
-    git clone https://github.com/yourusername/OmniTrace.git
-    cd OmniTrace
+    git clone https://github.com/Shreyansh3108/Omni-Trace.git
+    cd Omni-Trace
 
 2. **Grab the dependencies:**
 
